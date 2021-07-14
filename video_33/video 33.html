@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es_pe">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Formacion de textos</title>
+</head>
+<body>
+    <h1>Imagenes dinamicas</h1>
+    <p>Usaremos diferente imagenes para este ejercicio</p>
+    <picture> 
+        <source media="(max-width: 750px" srcset="8974.png_860.png"
+        type="image/png">    
+        <source media="(max-width: 1050px" srcset="gui.jpg"
+        type="image/jpg">
+        
+        <img src="8974.png_860.png" alt="imagen flexsible"> 
+        <img src="gui.jpg" alt="imagen flexsible"> 
+    </picture> 
+    
+    <h1>Reproduciendo audios</h1>
+    <p>vamos a reproducir audios en html</p>
+    <audio autoplay controls loop>
+        <source src="Pharrell-Williams-Happy.mp3" type="audio/mpeg">
+        <source src="Pharrell-Williams-Happy.ogg" type="audio/ogg">
+        <source src="Pharrell-Williams-Happy.wav" type="audio/wav">
+        <p> El navegador iniciara reproducciendo la musica. <a
+        href="Pharrell-Williams-Happy.mp3"> Haga click para reproducir el audio
+        MP3</a></p>
+    </audio>
+</body>
+</html> 

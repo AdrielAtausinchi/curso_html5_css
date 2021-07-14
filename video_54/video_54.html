@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es_pe">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Formacion de textos</title>
+    <style>
+      @font-face {
+    font-family: "idroid";
+    src: url('../fonts/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d1e;
+    --cor6: #ffffff;    
+    --cor7: #000000;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'Bebas Neue', cursive;
+    --fonte2: 'Android', sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: var(--fonte0);
+    color: var(--cor0);
+    background-color: var(--cor1);    
+    /* width: 100%; */
+    /* min-width: 400px; */
+    /* max-width: 850px; */
+}
+
+header {
+    background-image: linear-gradient(var(--cor3), rgb(0, 0, 0), rgb(5, 0, 0));
+    background-attachment: fixed;
+    color: var(--cor6);
+    font-family: var(--fonte2);
+    height: 150px;  
+}
+
+div.center {
+    /* height: 100%; */
+    margin: auto;
+    text-align: center;
+}
+
+div.center >h1 {
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+div.center >p {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+nav {
+    text-align: left;
+    font-size: 15px;
+    /* margin-bottom: 0px; */
+    background-color: var(--cor4);
+    padding: 10px;
+}
+
+nav>a {
+    text-decoration: none;
+    color: var(--cor0);
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+main {
+    background-color: var(--cor6);
+    color: var(--cor7);
+    width: 700px;
+    /* margin: auto; */
+    margin: 0px auto 10px auto;
+    padding: 20px;
+    line-height: 1.5em;
+    font-size: 15px;
+    text-align: justify;
+    border-radius: 0px 0px 15px 15px;
+}
+
+h2 {            
+    color: var(--cor4);
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+h3 {
+    background-image: linear-gradient(to right,var(--cor1), var(--cor6));
+    color: var(--cor4);
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.imagen-articulo {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.video {
+    position: relative;
+    background-color: var(--cor4);
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding-bottom: 59%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+ul {
+    list-style: '\2713\0020\0020';
+    color: black;
+    columns: 2;
+    list-style-position: inside;
+}
+
+.area-links {
+    padding: 15px;
+    background-color: var(--cor0);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+.area-links > h4 {
+    font-size: 15px;
+    color: var(--cor6);
+    background-color: var(--cor3);
+    padding: 15px;
+    margin: -15px -15px 0px -15px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+footer {
+    background-color: var(--cor4);
+    padding: 9px;
+    text-align: center;
+    font-size: 12px;
+} 
+    </style>
+</head>
+<body>
+    <header>
+      <h1>CURIOSIDADES Y TECNOLOGIA</h1>
+      <p>Todo lo que necesitas saber de tecnologia sobre Android e ios</p>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Curiosidades</a>
+        <a href="#">Noticias</a>
+        <a href="#">Desconocido</a>
+      </nav>
+    </header>
+    <main>
+        <section id="asuntos">
+        </section>
+        <section id="noticias">
+            <article>
+                <h2 style="background-color: rgb(250, 250, 250);" style="color: rgb(0, 190, 102);">HISTORIA DE MASCOTAS DE ANDROID</h2>
+                    <p style="color: black;">Android Inc. fue fundado en 2003 por Andy Rubin, Rich Miner, Nick Sears y Chris White 
+                        con el objetivo de desarrollar "dispositivos móviles que están al corriente de la ubicación 
+                        y preferencias del usuario".
+                        En un principio la intención era desarrollar un sistema operativo avanzado para cámaras 
+                        digitales, pero más tarde se cambió el foco al determinar que el mercado de las cámaras 
+                        digitales no era lo suficientemente grande. Se redirigirían los esfuerzos a crear un sistema 
+                        que pudiera competir con Symbian y Windows Mobile.
+                        En 2005, Google compraba Android Inc y empezaba el desarrollo de una plataforma móvil basada 
+                        en el kernel de Linux. La idea entonces era la de crear un sistema parecido al de BlackBerry, 
+                        basado en teclado QWERTY. Entonces llegó el iPhone.<b> ACTUALMENTE ES UNA DE LA PLATAFORMA CON
+                        MAYO DEMANDA EN EL MERCADO</b>
+                    </p>
+            <article>
+                <h2 style="box-shadow: inset 2px 2px 14px 5px rgb(197, 186, 186);">PRIMERA VERSION DE ANDROID</h2>
+                <article>
+                    <p style="color: black;">En los inicios, Android era Android, sin postre. La primera versión de Android se hizo pública 
+                        el 23 de septiembre de 2008 y no era un espectáculo para la vista, pero incluía mucho de los 
+                        bloques fundamentales de Android que han llegado hasta nuestros días. Más simples y más toscos, eso sí.</p>
+                    <picture>
+                        <img src="images/dan-droids.png" alt="Android">
+                    </picture>  
+                </article>          
+                </article>
+            <article>
+                <h3>SURGE UNA NUEVA MASCOTA</h3>
+                    <p style="color: black;">A estas alturas ya nos hemos acostumbrado al nombre, pero lo cierto es que un sistema operativo 
+                       para móviles llamado androide (en inglés) no tiene demasiado sentido. Hay mucha mitología sobre
+                       el origen del nombre, y la explicación más aceptada es que el nombre viene del juego Guantlet the
+                       third encounter, donde uno de los personajes es un robot.</p>
+                    <picture>
+                        <img src="images/irina-blok.jpg" alt="Android">
+                    </picture>
+                    <p style="color: black;">Algunos le llaman Andy, en el pasado se llamaba Mike, otros se refieren a él como muñeco verde 
+                       o robot de Android, ¿pero cuál es su verdadero nombre? Lo cierto es que depende de a quién preguntes. 
+                       Entre los trabajadores de Google se le conoce de forma amistosa como Bugdroid, un término que hace 
+                       referencia a los errores (bugs) que hay en todas las aplicaciones, pero obviamente no es algo que se 
+                       quiere promocionar mucho.
+                       En verdad el robot de Android no tiene un nombre oficial, y lo más parecido que encontrarás en la 
+                       documentación de Google es esta página sobre el uso de los recursos de marca, donde se le llama robot 
+                       de Android y robot verde de Android. El dibujo del robot es de código abierto, y en cierto modo el nombre 
+                       también: llámalo como quieras.</p>
+            </article>
+                    <picture>
+                        <img src="images/bugdroid.png" alt="Android" style="image-orientation: from-image;">
+                    </picture>
+                    <p style="color: black;">Bugdroid no era el logo original, antes de él existieron otros diseños. Dan Morrill, director de relaciones 
+                       con los desarrolladores de Android, tuvo que presentar algunos diseños para el lanzamiento del Sistema Operativo. 
+                       Como no tenía tiempo, diseñó algunas posibles mascotas con el software Inkscape, y la mascota nació con el nombre 
+                       Dandroid.
+
+                       Los Dandroids experimentaron un período de popularidad dentro de las oficinas de Google, pero poco después, Irina 
+                       Blok llegó con su brillante diseño de Bugdroid y no dudaron de que la mascota definitiva acababa de llegar y poco 
+                       después se convirtió en la cara del Sistema Operativo a nivel mundial.
+                       Irina Blok es diseñadora profesional y directora de arte en Silicon Valley.
+                       Irina Blok puede haber dibujado uno de los logotipos más reconocidos en el mundo, pero su mascota verde no la ha 
+                       hecho famosa. En 2010, ella y su hija de 6 años estaban en una sala de cine esperando a ver la película “Alice in 
+                       Wonderland”, mientras comenzaba la película su móvil Android mostró el logotipo y su hija gritó “¡Mi mamá inventó 
+                       eso!”. Todos los espectadores de la fila giraron para mirar que ocurría. Blok estaba tan avergonzada, dice, que se 
+                       hundió detrás de su asiento con sus palomitas de maíz.
+                       El logo de Bugdroid fue creado mientras trabajaba como diseñadora en Google. El logotipo, según se le dijo, debería 
+                       involucrar a un robot, por lo que estudió juguetes de ciencia ficción y películas espaciales, cualquier cosa que 
+                       pudiera ayudarla a crear un personaje. Al final, se inspiró en una fuente claramente humana: los pictogramas del 
+                       hombre y la mujer universales que a menudo aparecen en las puertas de los aseos. Dibujó un robot desnudo con un 
+                       torso en forma de lata y antenas en la cabeza.
+                       Mientras Blok trabajaba en su diseño, ella y sus compañeros de trabajo decidieron que el logotipo debería ser 
+                       libre. “Decidimos que sería un logotipo colaborativo, que todo el mundo pudiera personalizarlo”. Gracias a esta 
+                       decisión podemos encontrar a Budroid vestido de ninja, con esquís y patinando.</p>
+                       <iframe width="853" height="480" src="https://www.youtube.com/embed/ozYBXM9FArY" title="YouTube video player" 
+                       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                       allowfullscreen></iframe>
+            <article style="background-color: rgb(188, 243, 245);">
+                <h4 style="color: rgb(255, 255, 255);">¿Quiere aprender más?</h4>
+                    <p style="color: black;">Existe infinidad de información en la red sobre las versiones más recientes de Android. Sin embargo, debido a la 
+                        falta de popularidad del sistema operativo en sus ediciones preliminares –lógico, por otra parte–, para muchos, 
+                        los inicios de Android continúan siendo un misterio. Por eso, nuestro objetivo con este artículo repasar, una a 
+                        una, todas las versiones de Android de la historia, desde la primera hasta la última, y sus funciones y novedades 
+                        más importantes, que hicieron de Android la plataforma que es hoy, implantada en más de 2.000 millones de dispositivos 
+                        en el planeta.</p>
+                       <ul type="1"> <!-- 1 A a I i-->
+                           <li> 1.5 - Cupcake
+                           <li> 1.6 - Donut
+                           <li> 3.0 - Eclair
+                           <li> 2.2 - Froyo
+                           <li> 2.3 - Gingerbread
+                           <li> 3.0 - Honeycomb
+                           <li> 4.0 - Ice Cream Sandwich
+                           <li> 4.1 - Jelly Bean
+                           <li> 4.4 - Kitkat
+                           <li> 5.0 - Lollipop
+                           <li> 6.0 - Marshmallow
+                           <li> 7.0 - Nougat
+                           <li> 8.0 - Oreo
+                           <li> 9.0 - pie
+                           <li>jaborn</li>
+                           <li> detergente</li>
+                       </ul>      
+                    <p style="color: black;">Si bien es cierto que Android no es un sistema 100% confiable debido a los agujeros que presenta en su seguridad generados 
+                       por falta de procedimientos o mal empleo de los mismos, los ingenieros de este sistema operativo de Google ofrecen, de forma 
+                       permanente, parches para actualizar y reforzar la seguridad.
+                       Es decir, las vulnerabilidades presentadas años anteriores fueron solucionadas de forma rápida y eficiente, por lo que las mismas 
+                       ya no representan una amenaza. Pero esto no implica que intrusos puedan encontrar en el futuro otros agujeros en la seguridad de un móvil.</p>
+            </article>
+                    <p style="color: black;">Espero te haya servido de mucho este pagina 
+                    </p>
+        </section>
+    </main> 
+    <footer style="">
+        <p style="text-align: center;">Diseñado por yucay news</p>
+
+    </footer>   
+</body>
+</html>
